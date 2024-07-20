@@ -6,23 +6,25 @@
 }
 .navbar{
     height: 70px;
-    background-color: black;
+    background-color: rgb(89, 89, 160);
     color: white;
     padding: 4px;
     display: flex;
     gap: 3rem;
     align-items: center;
+    justify-content: space-evenly;
+   
 }
 .nav-logo{
     height: 55px;
-    width: 105px;
+    width: 125px;
     
 }
 
 .logo{
    
     height: 50px;
-    width: 100px;
+    width: 120px;
     background-image: url("download.png");
     background-size: cover;
    display: flex;
@@ -35,7 +37,7 @@
     border-style: solid;
 }
 .border:hover{
-   border: 3px solid rgb(126, 122, 122);
+   border: 3px solid rgb(44, 37, 37);
 }
 .nav-addres{
     color: white;
@@ -58,13 +60,14 @@
    border-radius: 5px;
 }
 .search-select{
-    width: 40px;
+    width: 86px;
     text-align: center;
     border-radius: 5px;
    
+   
 }
 .searchkey{
-width: 650px;
+width: 660px;
 height: 38px;
 background-color: rgb(255, 241, 223);
 text-align: center;
@@ -77,3 +80,39 @@ font-size: 1.2rem;
    justify-content: center;
    align-items: center;
 }
+span{
+    font-size: 0.8rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+    gap: 0.5rem;
+    font-size: 25px;
+}
+.panel{
+    height: 40px;
+    background-color: rgb(97, 92, 92);
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    
+}
+.panel-ops p{
+    display: inline;
+}
+.panel-ops{
+    display: flex;
+    width: 70%;
+    gap: 1.2rem;
+    font-size: 0.85rem;
+}
+.elect{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
