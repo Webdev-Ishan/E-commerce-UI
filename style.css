@@ -93,8 +93,8 @@ span{
     font-size: 25px;
 }
 .panel{
-    height: 40px;
-    background-color: rgb(97, 92, 92);
+    height: 50px;
+    background-color: rgb(79, 73, 73);
     color: white;
     display: flex;
    align-items: center;
@@ -104,6 +104,8 @@ span{
 .panel-ops p{
     display: inline;
 }
+
+
 .panel-ops{
     display: flex;
     width: 70%;
@@ -115,4 +117,58 @@ span{
     font-weight: 600;
 }
 
+.hero-sec{
+background-image: url("hero_image.jpg");
+height: 550px ;
+background-size: cover;
+display: flex;
+align-items: end;
+}
 
+.hero-line{
+background-color:rgb(248, 195, 213);
+color: black;
+font-weight: 500px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+border: 2px solid black;
+}
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(152, 251, 251);
+}
+.box{
+    border: 2px solid black;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    height: 450px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+}
+.box-image{
+    height: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: contain;
+}
+.boxc{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxc p{
+    color: rgb(53, 53, 151);
+    font-size: 1.3rem;
+}
+.boxc h2{
+    font-family: sans-serif;
+}
